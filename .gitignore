@@ -34,7 +34,3 @@ redis_data/
 
 # Logs
 *.log
-
-# Third-party API mock
-mock_api/
-EOF
