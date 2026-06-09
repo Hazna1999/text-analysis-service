@@ -1,0 +1,40 @@
+cat > .gitignore << 'EOF'
+# Python virtual environment (THOUSANDS of files - DON'T COMMIT!)
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Docker volumes
+postgres_data/
+redis_data/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Third-party API mock
+mock_api/
+EOF
